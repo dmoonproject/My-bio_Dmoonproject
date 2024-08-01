@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #3498db; /* Warna biru */
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav {
+    margin-top: 1em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+section {
+    padding: 6em 2em 2em; /* Tambahkan padding atas agar tidak tertutup header tetap */
+    max-width: 800px; /* Lebar maksimum 800px */
+    margin: 2em auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    line-height: 1.6;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+#menu {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.menu-image {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 1em;
+}
+
+.menu-text {
+    font-size: 1.2em;
+}
+
+.menu-item a:hover .menu-text {
+    color: #3498db; /* Warna teks saat hover */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
